@@ -12,8 +12,8 @@
 
 html {
     color: #222;
-    font-size: 1em;
-    line-height: 1.4;
+    font-size: .5em;
+    line-height: 2;
 }
 
 /*
@@ -103,8 +103,8 @@ html {
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  padding: 2em;
-  font-size: 1.25em;
+  padding: 5em;
+  font-size: 1.7em;
   height: 100%;
 }
 
@@ -112,20 +112,48 @@ body {
   /*add display:flex and set justify-content to space-between*/
   display: flex;
   justify-content: space-between;
-  font-weight: 700;
+  font-weight: 50;
+
 }
 
-.div-1, .div-2, .div-3 {
+.div-1 {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33.3%;
+  color: #fff;
+  line-height: 1.5em;
+  font-size: 1.4em;
+  background-color: black;
+  height: auto;
+  border-right: #fff solid 1px;
+} 
+
+.div-2{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33.3%;
+  color: #fff;
+  line-height: 1.5em;
+  font-size: 1.4em;
+  background-color: black;
+  height: auto;
+  border-right: #fff solid 1px;
+} 
+
+
+.div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 30%;
+  width: 33.3%;
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  height: 300px;
+  font-size: 1.4em;
+  background-color: black;
+  height: auto;
 }
 
 
